@@ -1,4 +1,10 @@
 package com.example.educationlogic.Logic;
 
-public class ElectricWire {
+import com.example.educationlogic.LogicBasic;
+
+public class ElectricWire implements LogicBasic {
+    @Override
+    public boolean checkCorrectPole(int breadBoardPointX, int breadBoardPointY) {
+        return false;
+    }
 }
